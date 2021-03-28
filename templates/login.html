@@ -9,10 +9,12 @@
 </head>
 <body>
     <section class="form-login">
-        <h5>Login</h5>
-        <input class="input" type="text" name="username" value="" placeholder="Username">
-        <input class="input" type="password" name="password" value="" placeholder="Password">
-        <input class="button" type="submit" name="" value="Login">
+        <form action='/login' method="POST">
+            <h5>Login</h5>
+            <input class="input" type="text" name="username" value="" placeholder="Username">
+            <input class="input" type="password" name="password" value="" placeholder="Password">
+            <input class="button" type="submit" name="" value="Login">
+        </form>
     </section>
     <div class="a"></div>
 </body>
